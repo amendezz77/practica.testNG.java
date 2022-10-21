@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-20T23:57:59 ART" name="Default suite" finished-at="2022-10-21T00:00:27 ART" duration-ms="147673">
+  <suite started-at="2022-10-21T19:26:41 ART" name="Default suite" finished-at="2022-10-21T19:28:17 ART" duration-ms="95932">
     <groups>
     </groups>
-    <test started-at="2022-10-20T23:57:59 ART" name="Default test" finished-at="2022-10-21T00:00:27 ART" duration-ms="147673">
+    <test started-at="2022-10-21T19:26:41 ART" name="Default test" finished-at="2022-10-21T19:28:17 ART" duration-ms="95932">
       <class name="org.quality.practica.PracticaTestNG">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:org.quality.practica.PracticaTestNG@747ddf94]" started-at="2022-10-20T23:57:59 ART" name="beforeClass" finished-at="2022-10-20T23:58:24 ART" duration-ms="24942" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:org.quality.practica.PracticaTestNG@689604d9]" started-at="2022-10-21T19:26:41 ART" name="beforeClass" finished-at="2022-10-21T19:27:21 ART" duration-ms="39715" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="testTextoBlack()[pri:0, instance:org.quality.practica.PracticaTestNG@747ddf94]" started-at="2022-10-20T23:58:24 ART" name="testTextoBlack" finished-at="2022-10-20T23:59:19 ART" duration-ms="54229" status="PASS">
+        <test-method signature="testTextoBlack()[pri:0, instance:org.quality.practica.PracticaTestNG@689604d9]" started-at="2022-10-21T19:27:21 ART" name="testTextoBlack" finished-at="2022-10-21T19:27:53 ART" duration-ms="31520" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTextoBlack -->
-        <test-method signature="testTextoBlue()[pri:0, instance:org.quality.practica.PracticaTestNG@747ddf94]" started-at="2022-10-20T23:59:19 ART" name="testTextoBlue" finished-at="2022-10-21T00:00:27 ART" duration-ms="68073" status="PASS">
+        <test-method signature="testTextoBlue()[pri:0, instance:org.quality.practica.PracticaTestNG@689604d9]" started-at="2022-10-21T19:27:53 ART" name="testTextoBlue" finished-at="2022-10-21T19:28:17 ART" duration-ms="24021" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTextoBlue -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:org.quality.practica.PracticaTestNG@747ddf94]" started-at="2022-10-21T00:00:27 ART" name="afterClass" finished-at="2022-10-21T00:00:27 ART" duration-ms="314" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:org.quality.practica.PracticaTestNG@689604d9]" started-at="2022-10-21T19:28:17 ART" name="afterClass" finished-at="2022-10-21T19:28:17 ART" duration-ms="458" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

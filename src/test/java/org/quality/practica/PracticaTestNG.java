@@ -42,7 +42,7 @@ public class PracticaTestNG {
 	
   @Test public void testTextoBlack() throws InterruptedException { 
 	  searchPage = new SearchPage(driver);
-	  searchPage.SearchInput("blue");
+	  searchPage.SearchInput("black");
 	  
 	  searchPage.IterarProductos();
 	  searchPage.CarCheckout();
