@@ -22,7 +22,7 @@ public class PracticaTestNG {
 	  
 	  driver = loginPage.chromeDriverConnection();
 	  loginPage.visit("http://automationpractice.com");
-      loginPage.loginUser("mendez123ariel@gmail.com","escuela123");
+      loginPage.loginUser("javaselenium@gmail.com","prueba123");
   }
   
   @Test
