@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.quality.practica.PracticaTestNG">
+      <class name="org.quality.restAssured.PracticaRestAssured">
         <methods>
-          <include name="testPractica"/>
-          <include name="beforeClass"/>
-          <include name="afterClass"/>
+          <include name="createUser"/>
+          <include name="verifyUser"/>
         </methods>
-      </class> <!-- org.quality.practica.PracticaTestNG -->
+      </class> <!-- org.quality.restAssured.PracticaRestAssured -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
