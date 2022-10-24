@@ -2,28 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-22T00:36:59 ART" name="Suite" finished-at="2022-10-22T00:38:40 ART" duration-ms="100516">
+  <suite started-at="2022-10-23T21:59:06 ART" name="Default suite" finished-at="2022-10-23T21:59:16 ART" duration-ms="10887">
     <groups>
     </groups>
-    <test started-at="2022-10-22T00:36:59 ART" name="Test" finished-at="2022-10-22T00:38:40 ART" duration-ms="100516">
-      <class name="org.quality.practica.PracticaTestNG">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:org.quality.practica.PracticaTestNG@18078bef]" started-at="2022-10-22T00:36:59 ART" name="beforeClass" finished-at="2022-10-22T00:37:20 ART" duration-ms="20722" status="PASS">
+    <test started-at="2022-10-23T21:59:06 ART" name="Default test" finished-at="2022-10-23T21:59:16 ART" duration-ms="10887">
+      <class name="org.quality.restAssured.PracticaRestAssured">
+        <test-method signature="verifyUser()[pri:0, instance:org.quality.restAssured.PracticaRestAssured@223191a6]" started-at="2022-10-23T21:59:06 ART" name="verifyUser" description="To get the details of employee with id 2" finished-at="2022-10-23T21:59:15 ART" duration-ms="9780" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="testTextoBlack()[pri:0, instance:org.quality.practica.PracticaTestNG@18078bef]" started-at="2022-10-22T00:37:20 ART" name="testTextoBlack" finished-at="2022-10-22T00:37:55 ART" duration-ms="34897" status="PASS">
+        </test-method> <!-- verifyUser -->
+        <test-method signature="createUser()[pri:1, instance:org.quality.restAssured.PracticaRestAssured@223191a6]" started-at="2022-10-23T21:59:15 ART" name="createUser" description="To create a new employee" finished-at="2022-10-23T21:59:16 ART" duration-ms="934" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTextoBlack -->
-        <test-method signature="testTextoBlue()[pri:0, instance:org.quality.practica.PracticaTestNG@18078bef]" started-at="2022-10-22T00:37:55 ART" name="testTextoBlue" finished-at="2022-10-22T00:38:39 ART" duration-ms="44351" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTextoBlue -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:org.quality.practica.PracticaTestNG@18078bef]" started-at="2022-10-22T00:38:39 ART" name="afterClass" finished-at="2022-10-22T00:38:40 ART" duration-ms="362" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- org.quality.practica.PracticaTestNG -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- createUser -->
+      </class> <!-- org.quality.restAssured.PracticaRestAssured -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
