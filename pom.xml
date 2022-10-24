@@ -69,6 +69,7 @@
             <configuration>
               <suiteXmlFiles>
               <suiteXmlFile>testng.xml</suiteXmlFile>
+              <suiteXmlFile>testngRestAssured.xml</suiteXmlFile>
               </suiteXmlFiles>
             </configuration>
         </plugin>
