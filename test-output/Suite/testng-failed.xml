@@ -6,6 +6,7 @@
       <class name="org.quality.restAssured.PracticaRestAssured">
         <methods>
           <include name="createUser"/>
+          <include name="verifyUser"/>
         </methods>
       </class> <!-- org.quality.restAssured.PracticaRestAssured -->
     </classes>

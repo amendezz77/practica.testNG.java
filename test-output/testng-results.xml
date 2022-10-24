@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-23T21:59:06 ART" name="Default suite" finished-at="2022-10-23T21:59:16 ART" duration-ms="10887">
+  <suite started-at="2022-10-23T22:38:49 ART" name="Suite" finished-at="2022-10-23T22:38:59 ART" duration-ms="9587">
     <groups>
     </groups>
-    <test started-at="2022-10-23T21:59:06 ART" name="Default test" finished-at="2022-10-23T21:59:16 ART" duration-ms="10887">
+    <test started-at="2022-10-23T22:38:49 ART" name="Test" finished-at="2022-10-23T22:38:59 ART" duration-ms="9587">
       <class name="org.quality.restAssured.PracticaRestAssured">
-        <test-method signature="verifyUser()[pri:0, instance:org.quality.restAssured.PracticaRestAssured@223191a6]" started-at="2022-10-23T21:59:06 ART" name="verifyUser" description="To get the details of employee with id 2" finished-at="2022-10-23T21:59:15 ART" duration-ms="9780" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUser -->
-        <test-method signature="createUser()[pri:1, instance:org.quality.restAssured.PracticaRestAssured@223191a6]" started-at="2022-10-23T21:59:15 ART" name="createUser" description="To create a new employee" finished-at="2022-10-23T21:59:16 ART" duration-ms="934" status="PASS">
+        <test-method signature="createUser()[pri:0, instance:org.quality.restAssured.PracticaRestAssured@2f9f7dcf]" started-at="2022-10-23T22:38:50 ART" name="createUser" finished-at="2022-10-23T22:38:58 ART" duration-ms="8632" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
+        <test-method signature="verifyUser()[pri:0, instance:org.quality.restAssured.PracticaRestAssured@2f9f7dcf]" started-at="2022-10-23T22:38:58 ART" name="verifyUser" finished-at="2022-10-23T22:38:59 ART" duration-ms="791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUser -->
       </class> <!-- org.quality.restAssured.PracticaRestAssured -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

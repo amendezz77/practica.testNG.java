@@ -12,7 +12,7 @@ import org.json.JSONObject;
 
 public class PracticaRestAssured {
 	
-	@Test(description = "To get the details of employee with id 2", priority = 0)
+	@Test
     public void verifyUser() {
  
         // Given
@@ -31,7 +31,7 @@ public class PracticaRestAssured {
                 .body("message", equalTo("Successfully! Record has been fetched."));
     }
 	
-	@Test(description = "To create a new employee", priority = 1)
+	@Test
     public void createUser() {
  
         JSONObject data = new JSONObject();
